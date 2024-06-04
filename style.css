@@ -6,7 +6,6 @@ body{
 }
 
 .page{
-    border: 1px solid red;
     width: 1000px;
     margin: 0 auto; /*ao invés de margin de 65 use padding de 65, o margin ele empurra o conteúdo para baixo, o padding preenche e aumenta a posição*/
     padding-top: 65px;
@@ -28,6 +27,9 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
+}
+
+ul li a{
     opacity: 0.5;
 }
 
@@ -49,7 +51,6 @@ h1 span{
 ul li a:hover{
     font-weight: bold;
     opacity: 1;
-    color: #1F1534;
 }
 
 a{
@@ -73,6 +74,7 @@ button{
     justify-content: center;
     align-items: center;
    
+    color: white;
     padding: 14px 32px 15px;
     background-color: #69B99D;
     border-radius: 4px;
